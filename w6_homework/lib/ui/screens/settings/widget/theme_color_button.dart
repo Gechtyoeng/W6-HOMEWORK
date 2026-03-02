@@ -17,7 +17,7 @@ class ThemeColorButton extends StatelessWidget {
 
   BoxBorder? get border =>
       isSelected ? Border.all(color: AppColors.neutral, width: 6) : null;
-
+  
   @override
   Widget build(BuildContext context) {
     return Padding(
